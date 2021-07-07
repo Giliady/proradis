@@ -74,40 +74,40 @@
                   <div style="background-color: white; color: #000; padding: 10px; border-radius: 10px;" align="left">
                     <form action="../assets/insertPaciente.php" method="POST">
                       <div class="form-group">
-                        <label for="exampleInputEmail1">Nome</label>
-                        <input type="text" class="form-control" id="nome" name="nome" aria-describedby="emailHelp">
+                        <label >Nome</label>
+                        <input type="text" class="form-control" id="nome" name="nome">
                       </div>
                       <div class="form-group">
-                        <label for="exampleInputEmail1">Sobrenome</label>
-                        <input type="text" id="sobrenome" name="sobrenome" class="form-control" aria-describedby="emailHelp">
+                        <label>Sobrenome</label>
+                        <input type="text" id="sobrenome" name="sobrenome" class="form-control">
                       </div>
                       <div class="form-group">
                         <label for="exampleInputEmail1">Data de Nascimento</label>
-                        <input type="date" id="nascimento" name="nascimento" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+                        <input type="date" id="nascimento" name="nascimento" class="form-control">
                       </div>
                       <div class="form-group">
                         <label for="exampleInputEmail1">CPF</label>
-                        <input type="number" id="cpf" name="cpf" class="form-control" aria-describedby="emailHelp" placeholder="Digite apenas números">
+                        <input type="number" id="cpf" name="cpf" class="form-control" placeholder="Digite apenas números">
                       </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div align="left">
                     <div style="margin-top: 9px;" class="form-group">
-                      <label for="exampleInputEmail1">CEP</label>
+                      <label>CEP</label>
                       <input id="cep" name="cep" type="number" class="form-control" aria-describedby="emailHelp" placeholder="Digite apenas números">
                     </div>
                     <div class="form-group">
-                      <label for="exampleInputEmail1">Rua</label>
-                      <input id="rua" name="rua" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+                      <label>Rua</label>
+                      <input id="rua" name="rua" type="text" class="form-control">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail1">Número da Residência</label>
-                      <input id="numeroCasa" name="numeroCasa" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+                      <input id="numeroCasa" name="numeroCasa" type="text" class="form-control">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail1">Complemento</label>
-                      <input id="complemento" name="complemento" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Digite apenas números">
+                      <input id="complemento" name="complemento" type="text" class="form-control" placeholder="Digite apenas números">
                     </div>
                   </div>
                 </div>

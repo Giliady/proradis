@@ -95,27 +95,27 @@ include ('../assets/config.php');
                       <form action="../assets/insertVacina.php" method="POST">
                         <div class="form-group">
                           <label >Fabricante</label>
-                          <input type="text" required="" class="form-control" name="fabricante" id="fabricante" aria-describedby="emailHelp" placeholder="Enter email">
+                          <input type="text" required="" class="form-control" name="fabricante" id="fabricante">
                         </div>
                         <div class="form-group">
-                          <label for="exampleInputEmail1">Lote</label>
-                          <input type="text" required="" class="form-control" name="lote" id="lote" aria-describedby="emailHelp" placeholder="Enter email">
+                          <label>Lote</label>
+                          <input type="text" required="" class="form-control" name="lote" id="lote">
                         </div>
                         <div class="form-group">
-                          <label for="exampleInputEmail1">Data de Validade</label>
-                          <input type="date" required="" class="form-control" name="validade" id="validade" aria-describedby="emailHelp" placeholder="Enter email">
+                          <label>Data de Validade</label>
+                          <input type="date" required="" class="form-control" name="validade" id="validade">
                         </div>
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div style="margin-top: 10px;" align="left">
                         <div class="form-group">
-                          <label for="exampleInputEmail1">Doses necessárias</label>
-                          <input type="number" required="" class="form-control" name="doses" id="doses" aria-describedby="emailHelp" placeholder="Digite apenas números">
+                          <label>Doses necessárias</label>
+                          <input type="number" required="" class="form-control" name="doses" id="doses" placeholder="Digite apenas números">
                         </div>
                         <div style="margin-top: 9px;" class="form-group">
-                          <label for="exampleInputEmail1">Intervalo entre doses</label>
-                          <input type="number" required="" class="form-control" name="intervalo" id="intervalo" aria-describedby="emailHelp" placeholder="Digite apenas números">
+                          <label>Intervalo entre doses</label>
+                          <input type="number" required="" class="form-control" name="intervalo" id="intervalo" placeholder="Digite apenas números">
                         </div>
                         <div class="row">
                           <div class="col-md-12"><button type="submit" class="btn btn-warning" style="width: 100%; color: black;" href="#"><b>CADASTRAR</b></button></div>
@@ -162,14 +162,14 @@ include ('../assets/config.php');
                   <div class="form-row">
                     <div class="col-md-4 mb-3">
                       <label for="validationServer01">CPF</label>
-                      <input type="number" class="form-control" name="cpf" id="cpf" placeholder="First name" value="Mark" required>
+                      <input type="number" class="form-control" name="cpf" id="cpf" required>
                       <div class="valid-feedback">
                         Looks good!
                       </div>
                     </div>
                     <div class="col-md-4 mb-3">
                       <label for="validationServer02">Data de Nascimento</label>
-                      <input type="date" class="form-control" name="nascimento" id="nascimento" placeholder="Last name" value="Otto" required>
+                      <input type="date" class="form-control" name="nascimento" id="nascimento" required>
                     </div>
                     <div class="col-md-4 mb-3">
                       <label for="validationServer01">Vacina</label>
